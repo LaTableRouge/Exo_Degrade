@@ -1,0 +1,7 @@
+@import 'variables';
+
+@for $i from 1 through 4{
+    ul li:nth-child(#{$i}){
+        background-color: darken($green, $amount: 10%*$i)
+    }
+}
